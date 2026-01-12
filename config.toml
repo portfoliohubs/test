@@ -1,4 +1,4 @@
-baseURL = "https://username.github.io/"
+baseURL = "https://portfoliohubs.github.io/test/"
 languageCode = "en-us"
 title = "Dr. Michael Nabil"
 #theme = ""
@@ -15,7 +15,7 @@ title = "Dr. Michael Nabil"
   author = "Dr. Michael Nabil"
   
   # Canonical URL
-  canonical = "https://username.github.io"
+  canonical = "https://portfoliohubs.github.io"
   
   # Open Graph Meta Tags
   og_title = "Dr. Michael Nabil - Professional Dental Portfolio"
