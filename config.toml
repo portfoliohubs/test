@@ -1,0 +1,233 @@
+baseURL = "https://username.github.io/"
+languageCode = "en-us"
+title = "Dr. Michael Nabil"
+theme = ""
+
+# SEO Configuration
+[params.seo]
+  # Meta Description for Search Engines
+  description = "Dr. Michael Nabil - Dedicated dental student specializing in [your specialty]. Expert in [key skill 1], [key skill 2], and [key skill 3]. Providing exceptional dental care and oral health services in [City, State]."
+  
+  # Keywords for SEO (comma-separated)
+  keywords = "dentist, dental student, dental care, oral health, [Your Name], DDS, dental surgery, cosmetic dentistry, orthodontics, pediatric dentistry, dental hygiene, dental clinic, dental treatment, dental services, [City] dentist, [State] dental care"
+  
+  # Author Meta Tag
+  author = "Dr. Michael Nabil"
+  
+  # Canonical URL
+  canonical = "https://username.github.io"
+  
+  # Open Graph Meta Tags
+  og_title = "Dr. Michael Nabil - Professional Dental Portfolio"
+  og_description = "Experienced dental student offering comprehensive dental care services. Specializing in [your specialty] with expertise in modern dental techniques."
+  og_image = "https://username.github.io/images/og-image.jpg"
+  og_image_alt = "Dr. Michael Nabil - Dental Professional"
+  og_type = "website"
+  og_locale = "en_US"
+  
+  # Twitter Card Meta Tags
+  twitter_card = "summary_large_image"
+  twitter_title = "Dr. Michael Nabil - Dental Portfolio"
+  twitter_description = "Professional dental student providing quality dental care services in [City, State]. Expert in [key skills]."
+  twitter_image = "https://username.github.io/images/twitter-image.jpg"
+  twitter_creator = "@yourtwitterhandle"
+  twitter_site = "@yourtwitterhandle"
+  
+  # Structured Data for Dental Professional
+  business_name = "Dr. Michael Nabil Dental Practice"
+  business_type = "Dental Clinic"
+  business_address = "123 Dental Street, [City], [State] [ZIP]"
+  business_phone = "+1 (555) 123-4567"
+  business_email = "your.email@example.com"
+  business_hours = "Monday-Friday 9:00 AM - 6:00 PM, Saturday 9:00 AM - 2:00 PM"
+  service_area = "[City], [State] and surrounding areas"
+  
+  # Dental Services Offered
+  services = [
+    "General Dentistry",
+    "Preventive Dental Care",
+    "Dental Cleanings",
+    "Oral Examinations",
+    "Dental Fillings",
+    "Root Canal Treatment",
+    "Tooth Extraction",
+    "Dental Crowns and Bridges",
+    "Teeth Whitening",
+    "Orthodontic Consultation",
+    "Pediatric Dentistry",
+    "Emergency Dental Care"
+  ]
+  
+  # Geographic Targeting
+  geo_region = "US-[State]"
+  geo_placename = "[City], [State]"
+  geo_position = "[latitude];[longitude]"
+  icbm = "[latitude], [longitude]"
+  
+  # Additional SEO Tags
+  robots = "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+  googlebot = "index, follow"
+  bingbot = "index, follow"
+  
+  # Google Analytics (optional)
+  google_analytics_id = "G-XXXXXXXXXX"
+  
+  # Google Search Console Verification
+  google_site_verification = "your-google-verification-code"
+  
+  # Bing Webmaster Tools Verification
+  bing_site_verification = "your-bing-verification-code"
+
+[params]
+  # Personal Information
+  name = "Dr. Michael Nabil"
+  title = "Dental Student & Aspiring Dentist"
+  tagline = "Passionate about creating healthy smiles and advancing dental care"
+  
+  # Contact Information
+  email = "your.email@example.com"
+  phone = "+1 (555) 123-4567"
+  location = "City, State"
+  linkedin = "https://linkedin.com/in/yourprofile"
+  github = "https://github.com/yourusername"
+  
+  # About Section
+  about_heading = "About Me"
+  about_content = """
+  I am a dedicated dental student with a strong foundation in oral healthcare and a passion for patient-centered care. 
+  My journey in dentistry is driven by a commitment to excellence, continuous learning, and the desire to make a 
+  meaningful impact on patients' lives through quality dental care.
+  """
+  
+  # Profile Image
+  profile_image = "https://via.placeholder.com/400x400"
+  
+  # Education
+  education_heading = "Education"
+  [[params.education]]
+    degree = "Doctor of Dental Surgery (DDS)"
+    school = "University Name"
+    location = "City, State"
+    duration = "2021 - 2025 (Expected)"
+    gpa = "3.8/4.0"
+    
+  [[params.education]]
+    degree = "Bachelor of Science in Biology"
+    school = "University Name"
+    location = "City, State"
+    duration = "2017 - 2021"
+    gpa = "3.9/4.0"
+  
+  # Experience
+  experience_heading = "Experience"
+  [[params.experience]]
+    position = "Dental Intern"
+    company = "Dental Clinic Name"
+    location = "City, State"
+    duration = "Summer 2024"
+    description = """
+    • Assisted senior dentists in patient examinations and treatment planning
+    • Gained hands-on experience with dental procedures and patient care
+    • Learned digital radiography and dental software systems
+    • Participated in patient education and oral hygiene instruction
+    """
+    
+  [[params.experience]]
+    position = "Dental Assistant Volunteer"
+    company = "Community Health Center"
+    location = "City, State"
+    duration = "2022 - 2023"
+    description = """
+    • Provided chair-side assistance during dental procedures
+    • Sterilized instruments and maintained infection control protocols
+    • Helped with patient scheduling and record management
+    • Assisted in community outreach dental programs
+    """
+  
+  # Skills
+  skills_heading = "Skills & Expertise"
+  [[params.skills]]
+    category = "Clinical Skills"
+    items = ["Patient Examination", "Dental Charting", "Radiography", "Oral Hygiene Instruction", "Cavity Preparation", "Restorative Procedures"]
+    
+  [[params.skills]]
+    category = "Technical Skills"
+    items = ["Digital Dental Software", "Intraoral Camera", "Dental Imaging", "CAD/CAM Systems", "Sterilization Protocols"]
+    
+  [[params.skills]]
+    category = "Soft Skills"
+    items = ["Patient Communication", "Attention to Detail", "Manual Dexterity", "Problem Solving", "Team Collaboration", "Time Management"]
+  
+  # Research & Publications
+  research_heading = "Research & Publications"
+  [[params.research]]
+    title = "Study on the Effectiveness of New Dental Materials"
+    role = "Research Assistant"
+    institution = "Dental Research Institute"
+    duration = "2023 - 2024"
+    description = "Conducted literature review and assisted in data collection for research on innovative dental materials."
+    
+  [[params.research]]
+    title = "Oral Health Awareness in Underserved Communities"
+    role = "Lead Researcher"
+    institution = "University Dental School"
+    duration = "2022 - 2023"
+    description = "Led a research project on oral health disparities and presented findings at a student research symposium."
+  
+  # Certifications
+  certifications_heading = "Certifications & Achievements"
+  [[params.certifications]]
+    name = "CPR & First Aid Certified"
+    issuer = "American Heart Association"
+    date = "2023"
+    
+  [[params.certifications]]
+    name = "Dental Radiography Certification"
+    issuer = "State Dental Board"
+    date = "2023"
+    
+  [[params.certifications]]
+    name = "Dean's List"
+    issuer = "University Dental School"
+    date = "2021 - 2023"
+  
+  # Volunteer Work
+  volunteer_heading = "Community Service"
+  [[params.volunteer]]
+    position = "Dental Volunteer"
+    organization = "Smiles for All Foundation"
+    duration = "2022 - Present"
+    description = "Provide free dental screenings and education to underserved communities."
+    
+  [[params.volunteer]]
+    position = "Oral Health Educator"
+    organization = "Local Elementary Schools"
+    duration = "2021 - 2022"
+    description = "Conducted educational sessions on proper oral hygiene for children."
+  
+  # Hobbies & Interests
+  interests_heading = "Interests & Activities"
+  interests = ["Reading Dental Literature", "Attending Dental Conferences", "Photography", "Hiking", "Community Service", "Public Health Advocacy"]
+  
+  # Testimonials
+  testimonials_heading = "Testimonials"
+  [[params.testimonials]]
+    name = "Dr. Senior Dentist Name"
+    position = "Clinical Professor"
+    organization = "University Dental School"
+    content = "An exceptional dental student with outstanding clinical skills and a genuine passion for patient care."
+    
+  [[params.testimonials]]
+    name = "Jane Smith"
+    position = "Patient"
+    content = "Very professional and caring. Made me feel comfortable throughout the entire procedure."
+  
+  # Contact Form
+  contact_heading = "Get In Touch"
+  contact_description = "I'm always interested in connecting with fellow dental professionals and learning about new opportunities in the field of dentistry."
+  
+  # Social Media
+  social_heading = "Connect With Me"
+  
+  # Footer
+  footer_text = "© 2024 Dr. [Your Name]. All rights reserved. | Designed with passion for dental excellence"
